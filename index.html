@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <script defer type="module" src="./src/ts/main.ts"></script>
+    <link rel="stylesheet" href="./dist/main.css">
+</head>
+<body>
+    <h1 class="d-flex">Todo List</h1>
+    <form >
+    <div class="padding-sm d-flex ">
+        <input id="taskInput" type="text" placeholder="Task" value="" required>
+        <button class="" id="btn" type="submit">Add task</button>
+    </div>
+</form>
+    <div id="unFinished" >
+        <div class="d-flex flex-row">
+           <h2 class="flex-right-lg">Todo</h2>
+           <button class="flex-right sort-btn" id="sort">Sort list</button>
+        </div>
+            <li class="d-flex flex-column" id="todo-list"></li>
+             
+    </div>
+    <div id="doneTasks">
+        <h2>Done</h2>
+        <li id="done-list"></li>
+        
+    </div>
+    
+    
+    
+</body>
+</html>

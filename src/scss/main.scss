@@ -1,0 +1,52 @@
+@use './variables';
+
+body {
+    text-align: center;
+    
+    div{
+        background-color: variables.$primary-color;
+       h2{
+          color: variables.$secondary-color;
+          text-shadow: variables.$shadow-sm;
+        }
+      
+       li{
+        color: variables.$list-color; 
+        justify-content: center;
+       }
+       button{
+        color: variables.$list-color; 
+       }
+}
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.flex-row{
+    display: flex;
+    flex-direction:row;
+}
+.flex-column{
+    flex-direction: column;
+}
+.padding-sm{
+    padding: variables.$padding-sm;
+}
+.flex-right{
+    margin-left: 12rem;
+}
+.flex-right-lg
+{
+    margin-left: 15rem;
+}
+.sort-btn{
+    height: 25px;
+    width: 60px;
+    margin-top: 1.2rem;
+}
+li {
+ list-style: none;
+}
